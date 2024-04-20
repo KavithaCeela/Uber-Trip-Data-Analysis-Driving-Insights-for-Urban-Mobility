@@ -6,3 +6,38 @@
 </div>
 
 ## Installation Instructions
+
+- **Install Anaconda**:
+  - Download Anaconda from [Anaconda's website](https://www.anaconda.com/products/distribution).
+  - Follow the installation instructions for your operating system.
+
+- **Create a Conda Environment**:
+  - Open a terminal or Anaconda prompt.
+  - Execute: `conda create --name myenv python=3.8`
+  - Replace `myenv` with your preferred environment name.
+
+- **Activate the Environment**:
+  - In the terminal or Anaconda prompt, run: `conda activate myenv`
+
+- **Install Jupyter Notebook**:
+  - Install Jupyter Notebook using conda:
+    ```bash
+    conda install -c conda-forge notebook
+    ```
+
+- **Install Dependencies**:
+  - Navigate to the directory containing your `.ipynb` file.
+  - Install dependencies using pip:
+    ```bash
+    pip install -r requirements.txt
+    ```
+  - Replace `requirements.txt` with the name of your requirements file, if applicable.
+
+- **Start Jupyter Notebook**:
+  - Launch the Jupyter Notebook server:
+    ```bash
+    jupyter notebook
+    ```
+  - This will open a new tab in your default web browser.
+  - Navigate to the directory containing your `.ipynb` file and open it.
+  - And Execute all the cells
